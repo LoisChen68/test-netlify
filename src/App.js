@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/'>
-          <Route path='Home' element={<Home />} />
-        </Route>
+        <Route path='/Home' element={<Home />} />
       </Routes>
       <p>Hollow World!</p>
     </div>
